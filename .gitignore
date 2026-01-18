@@ -1,0 +1,76 @@
+# .gitignore for .NET / Visual Studio projects
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.psess
+*.vsp
+
+# Build Folders
+[Bb]in/
+[Oo]bj/
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Dotnet publish
+publish/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Files built by Visual Studio
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.exe
+*.dll
+*.app
+
+# Mono
+*.pidb
+*.pidb.meta
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# others
+*.vsidx
+
+# Keep user-specific files out
+*.userprefs
+
+# Logs
+*.log
+
+# Packages
+*.nupkg
+
+# JetBrains
+.idea/
+
+# Rider caches
+.idea/.idea.*
+
+# Coverage
+coverage/*
+
+# JetBrains Rider plugin
+.idea/
