@@ -59,6 +59,8 @@ namespace Project1_SOLID
                         break;
                     case "3":
                         List<Book> list = new List<Book> { new Book(), new TopicBook() };
+                        TopicBook c = new TopicBook { Title = "Science Book", Price = 150, Topic = "Physics" };
+                        new BookPrinter().Print(c);
                         Console.WriteLine("List containing both Book and TopicBook runs smoothly -> LSP OK.");
                         break;
                     case "4":
